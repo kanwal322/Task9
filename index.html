@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Showcase</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Our Project Showcase</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="gallery">
+    <div class="gallery-item">
+      <img src="converted_image_1.webp" alt="Red roses - Project 1" loading="lazy" data-caption="Project 1 - Graphic design">
+    </div>
+    <div class="gallery-item">
+      <img src="converted_image_2.webp" alt="Abstract face - Project 2" loading="lazy" data-caption="Project 2 - Abstract Art">
+    </div>
+    <div class="gallery-item">
+      <img src="converted_image_3.webp" alt="Printed material - Project 3" loading="lazy" data-caption="Project 3 - Print Design">
+    </div>
+    <div class="gallery-item">
+      <img src="converted_image4.webp" alt="Blooming flower - Project 4" loading="lazy" data-caption="Project 4 - Blooming Flower">
+    </div>
+    <div class="gallery-item">
+      <img src="converted_image5.webp" alt="Red roses again - Project 5" loading="lazy" data-caption="Project 5 - Red Roses">
+    </div>
+    <div class="gallery-item">
+      <img src="converted_image6.webp" alt="Modern graphic - Project 6" loading="lazy" data-caption="Project 6 - Graphic Design">
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeBtn">&times;</span>
+    <img id="lightboxImage" src="" alt="">
+    <p id="caption"></p>
+    <div class="lightbox-nav">
+      <span id="prevBtn"><i class="fas fa-chevron-left"></i></span>
+      <span id="nextBtn"><i class="fas fa-chevron-right"></i></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
